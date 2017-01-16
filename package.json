@@ -1,0 +1,27 @@
+{
+  "name": "mixed_lang_config",
+  "version": "0.1.0",
+  "description": "Common configuration for mixed-language applications",
+  "main": "app.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha 'tests/**/*_test.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tamouse/MixedLangConfig.git"
+  },
+  "keywords": [
+    "configuration",
+    "mixed"
+  ],
+  "author": "tamouse@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tamouse/MixedLangConfig/issues"
+  },
+  "homepage": "https://github.com/tamouse/MixedLangConfig#readme",
+  "dependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^3.2.0"
+  }
+}
