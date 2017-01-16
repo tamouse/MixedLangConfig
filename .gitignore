@@ -1,0 +1,9 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea/
+log/
+tmp/
+.bundle/
+node_modules/
+bower_components/
+.node-environment/
+__pycache__/
