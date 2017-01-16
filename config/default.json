@@ -1,3 +1,7 @@
 {
-  "env": "default"
+  "env": "default",
+  "deep" : {
+    "key": "default",
+    "untouched": "untouched"
+  }
 }

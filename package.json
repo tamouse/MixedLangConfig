@@ -22,6 +22,7 @@
   "homepage": "https://github.com/tamouse/MixedLangConfig#readme",
   "dependencies": {
     "expect.js": "^0.3.1",
+    "lodash.merge": "^4.6.0",
     "mocha": "^3.2.0"
   }
 }

@@ -1,3 +1,6 @@
 {
-  "env": "production"
+  "env": "production",
+  "deep" : {
+    "key": "production"
+  }
 }

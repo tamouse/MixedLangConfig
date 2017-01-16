@@ -3,6 +3,7 @@
  */
 
 const fs = require('fs');
+const merge = require('lodash.merge');
 
 const defaultConfigFile = require.resolve('./default.json');
 const env = process.env.NODE_ENV || 'development';
@@ -14,6 +15,6 @@ defaultConfig = JSON.parse(defaultConfig);
 var envConfig = fs.readFileSync(envConfigFile).toString();
 envConfig = JSON.parse(envConfig);
 
-const CONFIG = Object.assign({}, defaultConfig, envConfig);
+const CONFIG = merge({}, defaultConfig, envConfig);
 
 module.exports = CONFIG;

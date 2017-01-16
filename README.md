@@ -60,7 +60,6 @@ Almost universally, the runtime environment is specified via an environment vari
 
 Each language / framework / platform has different ways of saying what the given runtime environment is; each of the collators will use one appropriate to the situation:
 
-|----------|----------------------|
 | language | environment variable |
 |----------|----------------------|
 | Node.js  | NODE_ENV             |
@@ -68,7 +67,6 @@ Each language / framework / platform has different ways of saying what the given
 | Python   | ??                   |
 | PHP      | ??                   |
 | Perl     | ??                   |
-|----------|----------------------|
 
 (**NOTE:** still have to figure out what the envvars in the other languages are.)
 
